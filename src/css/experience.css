@@ -1,0 +1,15 @@
+.experience-container {
+    display: flex;
+}
+.our-experience {
+    display: flex;
+}
+.our-experience__item {
+    width: 101px;
+    display: block;
+    margin-right: 100px;
+}
+.our-service li:first-child {
+    color: var(--main-accent-color);
+    font-size: 32px;
+}
