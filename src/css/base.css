@@ -12,6 +12,9 @@
     padding-bottom: 104px;
     outline: 1px solid blue;
 }
+.section-color {
+    background-color: var(--alternative-bg-color);
+}
 .btn {
    background-color: var(--main-accent-color);
    padding: 9px 41px;
@@ -30,4 +33,15 @@
 .icon {
     display: inline-block;
   
+}
+.overhead-title {
+    color: var(--main-accent-color);
+    line-height: 0.65;
+    font-family: var(--overhead-title-font);
+    margin-bottom: 21px;
+}
+.page-title {
+    font-family: var(--main-header-font);
+    margin-bottom: 17px;
+    font-size: 45px;
 }

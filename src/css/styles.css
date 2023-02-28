@@ -9,11 +9,11 @@
 @import url('./base.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./perfection.css');
 
 :root {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 0.26;
   font-weight: 400;
   letter-spacing: .03em;
   background-color: rgba(255, 255, 255, 0.87);

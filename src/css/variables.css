@@ -1,10 +1,12 @@
 :root {
     --main-page-font: "Titillium Web";
     --main-header-font: "Tapestry";
+    --overhead-title-font: "Macondo";
 
 
     --main-accent-color: #FFA03F;
     --main-menu-color: #14163E;
     --main-paragraph-color: #828282;
     --main-title-color: #383838;
+    --alternative-bg-color: rgba(245, 243, 255, 0.43);
 }

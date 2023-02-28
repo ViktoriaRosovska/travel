@@ -1,0 +1,13 @@
+.perfection-container {
+    text-align: center;
+    
+}
+.perfection {
+    display: flex;
+}
+.perfection-paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    width: 528px;
+    margin-bottom: 65px;
+}
