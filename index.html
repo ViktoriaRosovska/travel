@@ -2,79 +2,81 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/travel/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@400;600&family=Tapestry&family=Titillium+Web:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     
-    <script type="module" crossorigin src="/vanilla-app-template/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-10c40100.css">
+    <script type="module" crossorigin src="/travel/assets/index-fac82e35.js"></script>
+    <link rel="stylesheet" href="/travel/assets/index-1d5fefb3.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+    <header class="section header-section">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="logo logo--mg" href=""
+        >Tra<span class="logo--accent">vella.</span></a
+      >
+      <ul class="nav__list">
+        <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="" class="nav__link">About Us</a></li>
+        <li class="nav__item"><a href="" class="nav__link">Destination</a></li>
+        <li class="nav__item"><a href="" class="nav__link">Tour Package</a></li>
+        <li class="nav__item"><a href="" class="nav__link">Blogs</a></li>
+        <li class="nav__item"><a href="" class="nav__link">Contact Us</a></li>
+      </ul>
+    </nav>
+    <button class="btn header-btn" type="button">View Tours</button>
+  </div>
 </header>
 
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/vanilla-app-template/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
+    <section class="section hero-section">
+  <div class="container hero-container">
+    <div class="hero-title-thumb">
       <img
-        class="pic"
-        src="/vanilla-app-template/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
+        class="hero-img"
+        width="102"
+        height="98"
+        src="/travel/assets/hero-lights-d1e5e1c6.png"
       />
+      <h1 class="main-title">It’s a Big World Out There, Go Explore</h1>
+
+      <p class="hero-paragraph paragraph">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout.
+      </p>
+      <div class="search">
+        <button class="search__lockation settings--btn" type="button">
+          <span>
+            <svg class="icon-search" width="20" height="16">
+              <use href="/travel/assets/icons-6daa4abe.svg#icon-map"></use>
+            </svg>
+            Location</span
+          ><span class="search__point"> Pontianak,USA</span>
+        </button>
+        <button class="search__date settings--btn" type="button">
+          <span>
+            <svg class="icon-search" width="20" height="16">
+              <use href="/travel/assets/icons-6daa4abe.svg#icon-date"></use>
+            </svg>
+            Date</span
+          ><span class="search__point">26,May 2022</span>
+        </button>
+        <button class="search-btn" type="button">
+          <svg width="20" height="24">
+            <use href="/travel/assets/icons-6daa4abe.svg#icon-search"></use>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 </section>
