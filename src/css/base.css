@@ -1,0 +1,33 @@
+.container {
+    
+    width: 1440px;
+    padding-left: 163px;
+    padding-right: 163px;
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    outline: 1px solid blue;
+}
+.btn {
+   background-color: var(--main-accent-color);
+   padding: 9px 41px;
+   border-radius: 24px;
+   border-color: transparent;
+   color: #FFFFFF;
+}
+.logo {
+    font-family: var(--main-header-font);
+    font-size: 30px;
+}
+.logo--accent {
+    color: var(--main-accent-color);
+}
+
+.icon {
+    display: inline-block;
+  
+}
