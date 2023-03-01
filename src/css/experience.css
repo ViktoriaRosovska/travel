@@ -1,15 +1,42 @@
+.experience-section {
+  padding-top: 111px;
+  padding-bottom: 111px;
+}
 .experience-container {
-    display: flex;
+  display: flex;
+}
+.exp-img-mg {
+  margin-right: 83px;
+}
+.exp-thumb {
+  padding-top: 94px;
+  padding-bottom: 93px;
+  width: 531px;
 }
 .our-experience {
-    display: flex;
+  display: flex;
 }
 .our-experience__item {
-    width: 101px;
-    display: block;
-    margin-right: 100px;
+  width: 101px;
+  display: block;
+  margin-right: 100px;
 }
 .our-service li:first-child {
-    color: var(--main-accent-color);
-    font-size: 32px;
+  color: #FF6B00;
+  font-size: 32px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.our-service li:not(:first-child) {
+    line-height: 1.625;
+}
+.exp-paragraph {
+   margin-bottom: 22px; 
+}
+.exp-overhead-title {
+    font-size: 12px;
+}
+.exp-page-title {
+    margin-bottom: 19px;
 }

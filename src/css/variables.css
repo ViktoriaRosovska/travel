@@ -5,8 +5,10 @@
 
 
     --main-accent-color: #FFA03F;
+    --main--overhead-color: #FF6B00;
     --main-menu-color: #14163E;
     --main-paragraph-color: #828282;
     --main-title-color: #383838;
+    --main-paragraph-color: #A3A3A3;
     --alternative-bg-color: rgba(245, 243, 255, 0.43);
 }

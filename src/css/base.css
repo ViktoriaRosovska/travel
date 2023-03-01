@@ -35,13 +35,26 @@
   
 }
 .overhead-title {
-    color: var(--main-accent-color);
+    color: var(--main--overhead-color);
     line-height: 0.65;
     font-family: var(--overhead-title-font);
     margin-bottom: 21px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 .page-title {
     font-family: var(--main-header-font);
     margin-bottom: 17px;
     font-size: 45px;
+}
+.paragraph {
+  color: var(--main-paragraph-color); 
+  letter-spacing: .03em;
+  line-height: 1.885;
+  font-weight: 400; 
+  font-size: 16px;
+}
+.list-title {
+   font-size: 24px;
+   color: var(--main-menu-color);
 }
