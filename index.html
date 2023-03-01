@@ -15,9 +15,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     
-    <script type="module" crossorigin src="/travel/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/travel/assets/index-acb134d8.css">
+    <script type="module" crossorigin src="/travel/assets/index-91600b9d.js"></script>
+    <link rel="stylesheet" href="/travel/assets/index-36965d8d.css">
   </head>
   <body>
     <header class="section header-section">
@@ -39,7 +43,8 @@
   </div>
 </header>
 
-    <section class="section hero-section">
+    <main>
+      <section class="section hero-section">
   <div class="container hero-container">
     <div class="hero-title-thumb">
       <img
@@ -58,7 +63,7 @@
         <button class="search__lockation settings--btn" type="button">
           <span>
             <svg class="icon-search" width="20" height="16">
-              <use href="/travel/assets/icons-c26d87be.svg#icon-map"></use>
+              <use href="/travel/assets/icons-b301bfb6.svg#icon-map"></use>
             </svg>
             Location</span
           ><span class="search__point"> Pontianak,USA</span>
@@ -66,14 +71,14 @@
         <button class="search__date settings--btn" type="button">
           <span>
             <svg class="icon-search" width="20" height="16">
-              <use href="/travel/assets/icons-c26d87be.svg#icon-date"></use>
+              <use href="/travel/assets/icons-b301bfb6.svg#icon-date"></use>
             </svg>
             Date</span
           ><span class="search__point">26,May 2022</span>
         </button>
         <button class="search-btn" type="button">
           <svg width="20" height="24">
-            <use href="/travel/assets/icons-c26d87be.svg#icon-search"></use>
+            <use href="/travel/assets/icons-b301bfb6.svg#icon-search"></use>
           </svg>
         </button>
       </div>
@@ -81,7 +86,7 @@
   </div>
 </section>
 
-    <section class="section section-color">
+      <section class="section section-color">
   <div class="container perfection-container">
     <h3 class="overhead-title">3 STEP OR THE PERFECT TRIP</h3>
     <h2 class="page-title">Find Travel Perfection</h2>
@@ -92,33 +97,39 @@
     <ul class="perfection">
       <li class="perfection__item">
         <a href="" class="perfection__link">
-          <svg width="51" height="51">
-            <use href="/travel/assets/icons-c26d87be.svg#icon-dialog"></use>
+          <svg class="perf-icon" width="50" height="50">
+            <use href="/travel/assets/icons-b301bfb6.svg#icon-dialog"></use>
           </svg>
-          <h4>Tell Us What You Want To Do</h4>
-          <p>
+          <h4 class="list-title perfect-list-title">
+            Tell Us What You Want To Do
+          </h4>
+          <p class="paragraph">
             It is a long established fact that a reader will be content layout.
           </p>
         </a>
       </li>
       <li class="perfection__item">
         <a href="" class="perfection__link">
-          <svg width="50" height="50">
-            <use href="/travel/assets/icons-c26d87be.svg#icon-share-lock"></use>
+          <svg class="perf-icon" width="50" height="50">
+            <use href="/travel/assets/icons-b301bfb6.svg#icon-share-lock"></use>
           </svg>
-          <h4>Share Your Travel Location</h4>
-          <p>
+          <h4 class="list-title perfect-list-title">
+            Share Your Travel Location
+          </h4>
+          <p class="paragraph">
             It is a long established fact that a reader will be content layout.
           </p>
         </a>
       </li>
       <li class="perfection__item">
         <a href="" class="perfection__link">
-          <svg width="51" height="51">
-            <use href="/travel/assets/icons-c26d87be.svg#icon-share-date"></use>
+          <svg class="perf-icon" width="50" height="50">
+            <use href="/travel/assets/icons-b301bfb6.svg#icon-share-date"></use>
           </svg>
-          <h4>Share Your Travel Perference</h4>
-          <p>
+          <h4 class="list-title perfect-list-title">
+            Share Your Travel Perference
+          </h4>
+          <p class="paragraph">
             It is a long established fact that a reader will be content layout.
           </p>
         </a>
@@ -127,7 +138,7 @@
   </div>
 </section>
 
-    <section class="section">
+      <section class="section">
   <div class="container destination-container">
     <h3 class="overhead-title">Top destination</h3>
     <h2 class="page-title">Explore Top Destination</h2>
@@ -138,16 +149,19 @@
   </div>
 </section>
 
-    <section class="section">
+      <section class="section section-color experience-section">
   <div class="container experience-container">
-    <img src="/travel/assets/tourist-with-thumb-d0448783.png" />
-    <div>
-      <h3 class="overhead-title">EXPERIENCE</h3>
-      <h2 class="page-title">With Our Experience We Will Serve You</h2>
-      <p class="paragraph">
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour, or
-        randomised words which don't look even slightly believable.
+    <img class="exp-img-mg" src="/travel/assets/tourist-with-thumb-d0448783.png" />
+    <div class="exp-thumb">
+      <h3 class="overhead-title exp-overhead-title">OUR EXPERIENCE</h3>
+      <h2 class="page-title exp-page-title">
+        With Our Experience We Will Serve You
+      </h2>
+      <p class="paragraph exp-paragraph">
+        There are many variations of passages of Lorem Ipsum available,
+        but&nbsp;&nbsp;&nbsp; the majority have suffered alteration in some
+        form, by injected humour, or randomised words which don't look even
+        slightly believable.
       </p>
       <ul class="our-experience">
         <li class="our-experience__item">
@@ -157,13 +171,7 @@
             <li>Experience</li>
           </ul>
         </li>
-        <li class="our-experience__item">
-          <ul class="our-service">
-            <li>50k+</li>
-            <li>Happy</li>
-            <li>Customer</li>
-          </ul>
-        </li>
+
         <li class="our-experience__item">
           <ul class="our-service">
             <li>460+</li>
@@ -171,12 +179,339 @@
             <li>Collaboration</li>
           </ul>
         </li>
+        <li class="our-experience__item">
+          <ul class="our-service">
+            <li>50k+</li>
+            <li>Happy</li>
+            <li>Customer</li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
 </section>
 
+      <sectin class="section">
+  <div class="container">
+    <h3 class="overhead-title">OUR EXPERIENCE</h3>
+    <h2 class="page-title">Best Tour Packages</h2>
+  </div>
+</sectin>
 
+      <section class="section customers-section">
+  <div class="container customers-container">
+    <div class="customers-thumb">
+      <h3 class="overhead-title">OUR EXPERIENCE</h3>
+      <h2 class="page-title">What Our Customers Say About Us</h2>
+      <div class="customers__item active">
+        <p class="paragraph customers-paragraph">
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-open-quotes"></use>
+            </svg>
+          </span>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-close-quotes"></use>
+            </svg>
+          </span>
+        </p>
+        <div class="customers-sign">
+          <img
+            class="customer-img"
+            src="../img/customers/ari-smith.png"
+            alt="customer Ari Smith"
+            width="47"
+            height="47"
+          />
+          <h4>
+            Ari Smith
+            <span>
+              <svg class="point-icon" width="4" height="4">
+                <use href="../img/svg/icons.svg#icon-point"></use>
+              </svg>
+            </span>
+          </h4>
+          <p class="customers-sign-paragraph">Food Enthusiast</p>
+          <svg class="stars-icon" width="75" height="10">
+            <use href="../img/svg/icons.svg#icon-stars"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="customers__item">
+        <p class="paragraph customers-paragraph">
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-open-quotes"></use>
+            </svg>
+          </span>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-close-quotes"></use>
+            </svg>
+          </span>
+        </p>
+        <div class="customers-sign">
+          <img
+            class="customer-img"
+            src="../img/customers/customer-2.png"
+            alt="customer 2"
+            width="47"
+            height="47"
+          />
+          <h4>
+            Customer 2
+            <span>
+              <svg class="point-icon" width="4" height="4">
+                <use href="../img/svg/icons.svg#icon-point"></use>
+              </svg>
+            </span>
+          </h4>
+          <p class="customers-sign-paragraph">Customer 2</p>
+          <svg class="stars-icon" width="75" height="10">
+            <use href="../img/svg/icons.svg#icon-stars"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="customers__item">
+        <p class="paragraph customers-paragraph">
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-open-quotes"></use>
+            </svg>
+          </span>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-close-quotes"></use>
+            </svg>
+          </span>
+        </p>
+        <div class="customers-sign">
+          <img
+            class="customer-img"
+            src="../img/customers/customer-3.png"
+            alt="customer Ari Smith"
+            width="47"
+            height="47"
+          />
+          <h4>
+            Customer 3
+            <span>
+              <svg class="point-icon" width="4" height="4">
+                <use href="../img/svg/icons.svg#icon-point"></use>
+              </svg>
+            </span>
+          </h4>
+          <p class="customers-sign-paragraph">Customer 3</p>
+          <svg class="stars-icon" width="75" height="10">
+            <use href="../img/svg/icons.svg#icon-stars"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="customers__item">
+        <p class="paragraph customers-paragraph">
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-open-quotes"></use>
+            </svg>
+          </span>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-close-quotes"></use>
+            </svg>
+          </span>
+        </p>
+        <div class="customers-sign">
+          <img
+            class="customer-img"
+            src="../img/customers/customer-4.png"
+            alt="customer 4"
+            width="47"
+            height="47"
+          />
+          <h4>
+            Customer 4
+            <span>
+              <svg class="point-icon" width="4" height="4">
+                <use href="../img/svg/icons.svg#icon-point"></use>
+              </svg>
+            </span>
+          </h4>
+          <p class="customers-sign-paragraph">Customer 4</p>
+          <svg class="stars-icon" width="75" height="10">
+            <use href="../img/svg/icons.svg#icon-stars"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="customers__item">
+        <p class="paragraph customers-paragraph">
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-open-quotes"></use>
+            </svg>
+          </span>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          <span>
+            <svg width="19" height="16">
+              <use href="../img/svg/icons.svg#icon-close-quotes"></use>
+            </svg>
+          </span>
+        </p>
+        <div class="customers-sign">
+          <img
+            class="customer-img"
+            src="../img/customers/customer-5.png"
+            alt="customer 5"
+            width="47"
+            height="47"
+          />
+          <h4>
+            Customer 5
+            <span>
+              <svg class="point-icon" width="4" height="4">
+                <use href="../img/svg/icons.svg#icon-point"></use>
+              </svg>
+            </span>
+          </h4>
+          <p class="customers-sign-paragraph">Customer 5</p>
+          <svg class="stars-icon" width="75" height="10">
+            <use href="../img/svg/icons.svg#icon-stars"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-thumb">
+      <a class="customers-icon" id="customer-2" href="">
+        <img
+          src="../img/customers/customer-2.png"
+          alt=""
+          width="47"
+          height="47"
+        />
+      </a>
+      <a class="customers-icon" id="customer-3" href=""
+        ><img
+          src="../img/customers/customer-3.png"
+          alt=""
+          width="47"
+          height="47"
+        />
+      </a>
+      <a class="customers-icon" id="customer-4" href=""
+        ><img
+          src="../img/customers/customer-4.png"
+          alt=""
+          width="47"
+          height="47"
+      /></a>
+      <a class="customers-icon" id="customer-5" href="">
+        <img
+          src="../img/customers/customer-5.png"
+          alt=""
+          width="47"
+          height="47"
+      /></a>
+      <a class="customers-icon active" id="ari-smith" href="">
+        <img
+          src="../img/customers/ari-smith.png"
+          alt=""
+          width="47"
+          height="47"
+        />
+      </a>
+      <img
+        src="../img/customers/customers-map.png"
+        alt="customers on the map"
+        width="540"
+        height="275"
+      />
+    </div>
+  </div>
+</section>
+
+      <section class="section swiper-section">
+  <div class="container swiper-container">
+    <div #swiperRef="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+            <h4>
+              Enjoy The Beauty of The Ratio Hill Venezia,Italy 4.8 (2.5k
+              Reviews)
+            </h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <img src="../img/Slider/beautiful-tropical-beach-sea.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-pagination"></div> -->
+    <!-- <p class="append-buttons">
+      <button class="prepend-2-slides">Prepend 2 Slides</button>
+      <button class="prepend-slide">Prepend Slide</button>
+      <button class="append-slide">Append Slide</button>
+      <button class="append-2-slides">Append 2 Slides</button>
+    </p> -->
+  </div>
+</section>
+
+    </main>
+    
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+    ></script>
     
   </body>
 </html>
